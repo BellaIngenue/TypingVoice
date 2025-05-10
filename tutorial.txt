@@ -1,0 +1,10 @@
+py -3.10 typingvoice.py
+
+INPUTS: (text, filename, pitch, speed)
+DEFAULT INPUT:
+- filename: talk_output.wav
+- pitch: 0 (normal)
+- speed: 1.25x
+
+EXAMPLE USAGE: py -3.10 typingvoice.py "Don't you know how to greet a new pal?" sans_line.wav -2 1.5
+OUTPUT LOCATION: /outputs/sans_line.wav
