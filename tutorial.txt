@@ -6,5 +6,5 @@ DEFAULT INPUT:
 - pitch: 0 (normal)
 - speed: 1.25x
 
-EXAMPLE USAGE: py -3.10 typingvoice.py "Don't you know how to greet a new pal?" sans_line.wav -2 1.5
+EXAMPLE USAGE: python typingvoice.py "Hello friend!" --category melodic --pitch 2 --speed 1.3 --output outputs/friend.wav
 OUTPUT LOCATION: /outputs/sans_line.wav

@@ -25,7 +25,7 @@ See it live at: https://bellaingenue.github.io/TypingVoice/
 
 ### Code Examples:
 
-INPUTS: (text, filename, pitch, speed)
+INPUTS: (text, category, pitch, speed, outputname)
 DEFAULT INPUT:
 - filename: talk_output.wav
 - pitch: 0 (normal)
@@ -33,7 +33,8 @@ DEFAULT INPUT:
 
 GEN EXAMPLE: ``py -3.10 typingvoice.py``
 
-EXAMPLE: ``py -3.10 typingvoice.py "Don't you know how to greet a new pal?" sans_line.wav -2 1.5``
+EXAMPLE: ``python typingvoice.py "Hello friend!" --category melodic --pitch 2 --speed 1.3 --output outputs/friend.wav
+``
 
 OUTPUT LOCATION: /outputs/talk_output.wav
 
