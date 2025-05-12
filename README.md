@@ -4,8 +4,6 @@
 
 TypingVoice is a simple CLI generator of the sound system used for dialogues in games like Celeste and Undertale!
 
-See it live at: https://bellaingenue.github.io/TypingVoice/
-
 ## Dependencies
 
 - Python 3.10: Make sure you have the CORRECT Version, as Audioop no longer works with any others higher than 3.10. Download 3.10 here: https://www.python.org/downloads/release/python-3100/
@@ -26,15 +24,16 @@ See it live at: https://bellaingenue.github.io/TypingVoice/
 ### Code Examples:
 
 INPUTS: (text, category, pitch, speed, outputname)
+CATEGORIES: melodic, soft, rough, long
 DEFAULT INPUT:
-- filename: talk_output.wav
+- category: all/mixed
+- filename: output.wav
 - pitch: 0 (normal)
-- speed: 1.25x
+- speed: 1.0x (normal)
 
 GEN EXAMPLE: ``py -3.10 typingvoice.py``
 
-EXAMPLE: ``python typingvoice.py "Hello friend!" --category melodic --pitch 2 --speed 1.3 --output outputs/friend.wav
-``
+EXAMPLE: ``py -3.10 typingvoice.py "Hello friend!" --category melodic --pitch 2 --speed 1.3 --output outputs/friend.wav``
 
 OUTPUT LOCATION: /outputs/talk_output.wav
 
